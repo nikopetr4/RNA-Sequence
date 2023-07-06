@@ -1,1 +1,2 @@
 # RNA-Sequence
+This algorithm creates a RNA Secondary structere according to some conditions. As, we know a RNA molecule is a single-stranded one and a pair is  generated in the molecule when adenine (A) has a band with uracil (U) and cytosine (C) has a band with guanine (G). Also, we require that a base can make only one matching in the molecule and the ends of each pair in RNA are separated by at least 4 intervening base. Finally, the pairs should not cross each other. For example if (i,j) and (k,l) are 2 pairs then we cannot have i < k < j < l.
